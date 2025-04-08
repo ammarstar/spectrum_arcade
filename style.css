@@ -1,0 +1,139 @@
+h1{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+h2{
+    font-size: 22px;
+    text-transform: capitalize;
+    margin: 0;
+    font-family: 'Times New Roman';
+    font-weight: 400;
+}
+body{
+    background-image:  linear-gradient(rgb(14, 14, 13,0.6), rgb(15, 15, 15,0.6)), url("images/bg.jpg");
+}
+.navigasibar{
+    background: linear-gradient( rgb(54, 99, 224),  rgb(30, 38, 61));
+}
+.navbar-brand img{
+    width: 150px;
+    height: 50px;
+}
+.navbar input{
+    width: 100%;
+    margin-top: 10px;
+}
+/* untuk menghilangkan link pada medsos ketika minimaze */
+.navbar-nav .ms{
+    display: none;
+}
+.navbar .login{
+    color: black;
+    font-size: 30px;
+    margin: 3px;
+}
+.navbar-nav span{
+    width: 2px;
+    background-color: white;
+    margin-left: 10px;
+    display: none;
+}
+.navbar .medsos{
+    line-height: 50px;
+    color: rgb(221, 199, 199);
+    display: none;
+}
+.navbar .medsos:hover{
+    color: black;
+}
+.navbawah{
+    background-color: rgb(255, 255, 255);
+}
+.navbawah .nav-link{
+    color: black !important;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    margin-right: 15px;
+}
+.navbawah .nav-link:hover{
+    background-color:rgb(102, 96, 84,0.4);
+    border-radius: 25px;
+}
+.contains{
+    background-color: rgb(165, 164, 164,0.3);
+    padding: 10px 20px;
+}
+.contains hr{
+    width: 200px;
+    background-color: rgb(84, 84, 173);
+    height: 1px;
+}
+.contains a{
+    color: grey;
+}
+.terpopuler .card img{
+    height: 200px;
+}
+.terpopuler .card img:hover{
+    transform: scale(1.1);
+}
+.terpopuler .kanan{
+    height: 300px;
+    background-color: whitesmoke;
+    padding: 5px 10px;
+}
+.vidstory{
+    background-color: whitesmoke;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+.vidstory h1, .vidstory hr{
+    text-align: left ;
+    margin-left: 20px;
+}
+.vidstory .card{
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+.vidstory .kanan{
+    padding: 5px 10px;
+}
+.cerita{
+    background-color: rgb(165, 164, 164,0.3);
+    padding: 10px 20px;
+}
+.cerita .card {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.cerita .card:hover{
+    transform: scale(1.1);
+}
+.footer{
+    background-color: rgb(136, 142, 146);
+    height: 50px;
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .navbar-nav span{
+        width: 2px;
+        background-color: white;
+        margin-left: 10px;
+        display: block;
+    }   
+    .navbar .medsos{
+        line-height: 50px;
+        color: rgb(221, 199, 199);
+        display: block;
+    }
+    .navbar input{
+        width: 400px;
+    }
+    .navbar-nav .ms{
+        display: block;
+    }
+ }
