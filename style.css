@@ -73,11 +73,21 @@ body{
 .contains a{
     color: grey;
 }
+.terpopuler .kiri .col-md-4{
+    margin-bottom: 15px;
+}
 .terpopuler .card img{
     height: 200px;
 }
 .terpopuler .card img:hover{
     transform: scale(1.1);
+}
+.terpopuler .card-text{
+    text-transform: capitalize;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "roboto";
 }
 .terpopuler .kanan{
     height: 300px;
